@@ -35,35 +35,35 @@ const Update = () => {
 
   return (
     <div className="form">
-      <h1>Update the Book</h1>
+      <h1>Update the Item</h1>
       <input
         type="text"
-        placeholder="Book title"
+        placeholder="Item title"
         name="title"
         onChange={handleChange}
       />
       <textarea
         rows={5}
         type="text"
-        placeholder="Book desc"
+        placeholder="Item desc"
         name="desc"
         onChange={handleChange}
       />
       <input
         type="number"
-        placeholder="Book price"
+        placeholder="Item price"
         name="price"
         onChange={handleChange}
       />
       <input
         type="text"
-        placeholder="Book cover"
+        placeholder="Item cover"
         name="cover"
         onChange={handleChange}
       />
       <button onClick={handleClick}>Update</button>
       {error && "Something went wrong!"}
-      <Link to="/">See all books</Link>
+      <Link to="/">See all items</Link>
     </div>
   );
 };

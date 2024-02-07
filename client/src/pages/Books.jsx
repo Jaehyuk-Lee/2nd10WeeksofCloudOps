@@ -33,7 +33,7 @@ const Books = () => {
 
   return (
     <div>
-      <h1>Ankit book Shop</h1>
+      <h1>Walmart</h1>
       <div className="books">
         {books.map((book) => (
           <div key={book.id} className="book">
@@ -56,7 +56,7 @@ const Books = () => {
 
       <button className="addHome">
         <Link to="/add" style={{ color: "inherit", textDecoration: "none" }}>
-          Add new book
+          Add new item
         </Link>
       </button>
     </div>
