@@ -33,7 +33,7 @@ const Books = () => {
 
   return (
     <div>
-      <h1>Walmart</h1>
+      <img src="https://www.supermarketnews.com/sites/supermarketnews.com/files/styles/article_featured_retina/public/walmart-logo-promo.png?itok=277jhpAr" alt="walmart" width="400px"/>
       <div className="books">
         {books.map((book) => (
           <div key={book.id} className="book">
